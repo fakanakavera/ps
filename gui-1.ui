@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.1">
+  <object class="tk.Toplevel" id="toplevel1">
+    <property name="background">#695858</property>
+    <property name="geometry">1600x1050</property>
+    <property name="height">200</property>
+    <property name="width">200</property>
+    <child>
+      <object class="tk.Label" id="label1">
+        <property name="text" translatable="yes">label1</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Frame" id="frame5">
+        <property name="background">#1300c1</property>
+        <property name="height">200</property>
+        <property name="padx">100</property>
+        <property name="pady">100</property>
+        <property name="width">200</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Frame" id="frame8">
+        <property name="background">#0ac100</property>
+        <property name="height">200</property>
+        <property name="padx">100</property>
+        <property name="pady">100</property>
+        <property name="width">200</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Frame" id="frame9">
+        <property name="background">#c10000</property>
+        <property name="borderwidth">3</property>
+        <property name="height">200</property>
+        <property name="highlightbackground">#a81a1a</property>
+        <property name="highlightcolor">#863c3c</property>
+        <property name="padx">100</property>
+        <property name="pady">100</property>
+        <property name="width">200</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button8">
+        <property name="command" type="command" cbtype="simple">show_frame</property>
+        <property name="cursor">arrow</property>
+        <property name="text" translatable="yes">button5</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button6">
+        <property name="command" type="command" cbtype="simple">show_frame</property>
+        <property name="text" translatable="yes">button6</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button7">
+        <property name="command" type="command" cbtype="simple">show_frame</property>
+        <property name="text" translatable="yes">button7</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">6</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
