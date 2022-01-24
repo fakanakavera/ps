@@ -1,0 +1,26 @@
+GUI enable to launch the bot with different parameters for each table.
+
+    BOT classes
+        Table
+            GetFrame
+            UpdatePot
+            UpdateDealer
+            GetHandNumber
+            UpdateHandNumber (uses GetHandNumber)
+            WaitForCards (Before hand is dealt)
+            WaitFastFold (use same logic as WaitForCards)
+            ResetAllinCount
+            ResetData
+            ResetStreet (counters reset when street changes)
+            UpdateToCall
+            UpdatePotOdds
+
+        Player
+            UpdateHole
+            CheckCards
+            Reset
+            AllInCheck
+            UpdatePossibleActions
+            WaitAction
+            WaitOwnAction
+            
