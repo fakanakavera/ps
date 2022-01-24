@@ -1,0 +1,70 @@
+import pathlib
+import pygubu
+import tkinter as tk
+import tkinter.ttk as ttk
+import random
+
+PROJECT_PATH = pathlib.Path(__file__).parent
+PROJECT_UI = PROJECT_PATH / "newproject"
+
+
+class NewprojectApp:
+    def __init__(self, master=None):
+        # build ui
+        self.toplevel1 = tk.Tk() if master is None else tk.Toplevel(master)
+        self.label1 = tk.Label(self.toplevel1)
+        self.label1.configure(text='label1')
+        self.label1.grid(column='0', row='3')
+        self.frame5 = tk.Frame(self.toplevel1)
+        self.frame5.configure(background='#1300c1', height='200', padx='100', pady='100')
+        self.frame5.configure(width='200')
+        self.frame5.grid(column='0', row='0')
+        self.frame8 = tk.Frame(self.toplevel1)
+        self.frame8.configure(background='#0ac100', height='200', padx='100', pady='100')
+        self.frame8.configure(width='200')
+        self.frame8.grid(column='0', row='0')
+        self.frame9 = tk.Frame(self.toplevel1)
+        self.frame9.configure(background='#c10000', borderwidth='3', height='200', highlightbackground='#a81a1a')
+        self.frame9.configure(highlightcolor='#863c3c', padx='100', pady='100', width='200')
+        self.frame9.grid(column='0', row='0')
+        self.button8 = tk.Button(self.toplevel1)
+        self.button8.configure(cursor='arrow', text='button5')
+        self.button8.grid(column='0', row='4')
+        self.button8.configure(command=self.show_frame)
+        self.button6 = tk.Button(self.toplevel1)
+        self.button6.configure(text='button6')
+        self.button6.grid(column='0', row='5')
+        self.button6.configure(command=self.show_frame)
+        self.button7 = tk.Button(self.toplevel1)
+        self.button7.configure(text='button7')
+        self.button7.grid(column='0', row='6')
+        self.button7.configure(command=self.show_frame)
+        self.toplevel1.configure(background='#695858', height='200', width='200')
+        self.toplevel1.geometry('1600x1050')
+
+        # Main widget
+        self.mainwindow = self.toplevel1
+    
+    def run(self):
+        self.mainwindow.mainloop()
+
+    def show_frame(self):
+        x = random.randint(1,3)
+        if x == 1:
+            print('aaa')
+            self.frame8.tkraise()
+            self.label1['text'] = "Frame: 2"
+        elif x == 2:
+            print('bbb')
+            self.frame9.tkraise()
+            self.label1['text'] = "Frame: 3"
+        elif x == 3:
+            print('ccc')
+            self.frame5.tkraise()
+            self.label1['text'] = "Frame: 1"
+
+
+if __name__ == '__main__':
+    app = NewprojectApp()
+    app.run()
+

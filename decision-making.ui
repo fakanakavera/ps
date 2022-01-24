@@ -1,0 +1,2173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.1">
+  <object class="tk.Toplevel" id="toplevel2">
+    <property name="geometry">1600x900</property>
+    <property name="height">200</property>
+    <property name="width">200</property>
+    <child>
+      <object class="ttk.Notebook" id="mainnotebook">
+        <property name="height">800</property>
+        <property name="width">1590</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="padx">5</property>
+          <property name="pady">5</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+        </layout>
+        <child>
+          <object class="ttk.Notebook.Tab" id="PreFlopNotebookTab">
+            <property name="text" translatable="yes">PreFlop</property>
+            <child>
+              <object class="ttk.Notebook" id="PreFlopNotebookTab2">
+                <property name="height">200</property>
+                <property name="width">200</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+                <child>
+                  <object class="ttk.Notebook.Tab" id="max9tab">
+                    <property name="text" translatable="yes">9-max</property>
+                    <child>
+                      <object class="ttk.Notebook" id="Max9Tab2">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="grid">
+                          <property name="column">0</property>
+                          <property name="propagate">True</property>
+                          <property name="row">0</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Notebook.Tab" id="preflopmax9utg">
+                            <property name="text" translatable="yes">UTG</property>
+                            <child>
+                              <object class="ttk.Notebook" id="preflopmax9utgtab">
+                                <property name="height">200</property>
+                                <property name="width">200</property>
+                                <layout manager="grid">
+                                  <property name="column">0</property>
+                                  <property name="propagate">True</property>
+                                  <property name="row">0</property>
+                                </layout>
+                                <child>
+                                  <object class="ttk.Notebook.Tab" id="preflopmax9utgvpip">
+                                    <property name="text" translatable="yes">VPIP</property>
+                                    <child>
+                                      <object class="ttk.Frame" id="frame31">
+                                        <property name="height">200</property>
+                                        <property name="width">200</property>
+                                        <layout manager="grid">
+                                          <property name="column">0</property>
+                                          <property name="propagate">True</property>
+                                          <property name="row">0</property>
+                                        </layout>
+                                        <child>
+                                          <object class="tk.Message" id="message1">
+                                            <property name="cursor">arrow</property>
+                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                            <layout manager="grid">
+                                              <property name="column">0</property>
+                                              <property name="propagate">True</property>
+                                              <property name="row">0</property>
+                                            </layout>
+                                          </object>
+                                        </child>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="ttk.Notebook.Tab" id="preflopmax9vsopen">
+                                    <property name="text" translatable="yes">vsOpen</property>
+                                    <child>
+                                      <object class="ttk.Notebook" id="notebook15">
+                                        <property name="height">200</property>
+                                        <property name="width">200</property>
+                                        <layout manager="grid">
+                                          <property name="column">0</property>
+                                          <property name="propagate">True</property>
+                                          <property name="row">0</property>
+                                        </layout>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab42">
+                                            <property name="text" translatable="yes">UTG</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook16">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab52">
+                                                    <property name="text" translatable="yes">2x</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame46">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message3">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab53">
+                                                    <property name="text" translatable="yes">2~3x</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame47">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message4">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab54">
+                                                    <property name="text" translatable="yes">4x~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame48">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message5">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab43">
+                                            <property name="text" translatable="yes">UTG+1</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook17">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab55">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame49">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message6">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab56">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame50">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message7">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab57">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame51">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message8">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab44">
+                                            <property name="text" translatable="yes">MP</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook18">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab58">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame52">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message9">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab59">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame53">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message10">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab60">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame54">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message11">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab45">
+                                            <property name="text" translatable="yes">MP+1</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook19">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab61">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame55">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message12">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab62">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame56">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message13">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab63">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame57">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message14">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab46">
+                                            <property name="text" translatable="yes">HJ</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook20">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab64">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame58">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message15">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab65">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame59">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message16">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab66">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame60">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message17">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab47">
+                                            <property name="text" translatable="yes">CO</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook21">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab67">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame61">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message18">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab68">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame62">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message19">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab69">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame63">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message20">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab48">
+                                            <property name="text" translatable="yes">BTN</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook22">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab70">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame64">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message21">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab71">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame65">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message22">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab72">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame66">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message23">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab49">
+                                            <property name="text" translatable="yes">SB</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook23">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab73">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame67">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message24">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab74">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame68">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message25">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab75">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame69">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message26">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab50">
+                                            <property name="text" translatable="yes">BB</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook24">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab76">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame70">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message27">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab77">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame71">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message28">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab78">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame72">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message29">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="ttk.Notebook.Tab" id="preflopmax9vs3bet">
+                                    <property name="text" translatable="yes">vs3bet</property>
+                                    <child>
+                                      <object class="ttk.Notebook" id="notebook25">
+                                        <property name="height">200</property>
+                                        <property name="width">200</property>
+                                        <layout manager="grid">
+                                          <property name="column">0</property>
+                                          <property name="propagate">True</property>
+                                          <property name="row">0</property>
+                                        </layout>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab79">
+                                            <property name="text" translatable="yes">UTG</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook26">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab80">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame73">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message30">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab81">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame74">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message31">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab82">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame75">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message32">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab83">
+                                            <property name="text" translatable="yes">UTG+1</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook27">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab84">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame76">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message33">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab85">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame77">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message34">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab86">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame78">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message35">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab87">
+                                            <property name="text" translatable="yes">MP</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook28">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab88">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame79">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message36">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab89">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame80">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message37">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab90">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame81">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message38">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab91">
+                                            <property name="text" translatable="yes">MP+1</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook29">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab92">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame82">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message39">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab93">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame83">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message40">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab94">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame84">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message41">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab95">
+                                            <property name="text" translatable="yes">HJ</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook30">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab96">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame85">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message42">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab97">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame86">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message43">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab98">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame87">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message44">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab99">
+                                            <property name="text" translatable="yes">CO</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook31">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab100">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame88">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message45">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab101">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame89">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message46">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab102">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame90">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message47">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab103">
+                                            <property name="text" translatable="yes">BTN</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook32">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab104">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame91">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message48">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab105">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame92">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message49">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab106">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame93">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message50">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab107">
+                                            <property name="text" translatable="yes">SB</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook33">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab108">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame94">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message51">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab109">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame95">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message52">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab110">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame96">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message53">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                        <child>
+                                          <object class="ttk.Notebook.Tab" id="tab111">
+                                            <property name="text" translatable="yes">BB</property>
+                                            <child>
+                                              <object class="ttk.Notebook" id="notebook34">
+                                                <property name="height">200</property>
+                                                <property name="width">200</property>
+                                                <layout manager="grid">
+                                                  <property name="column">0</property>
+                                                  <property name="propagate">True</property>
+                                                  <property name="row">0</property>
+                                                </layout>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab112">
+                                                    <property name="text" translatable="yes">~2.5bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame97">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message54">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab113">
+                                                    <property name="text" translatable="yes">2.5~3bb</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame98">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message55">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="ttk.Notebook.Tab" id="tab114">
+                                                    <property name="text" translatable="yes">3bb~</property>
+                                                    <child>
+                                                      <object class="ttk.Frame" id="frame99">
+                                                        <property name="height">200</property>
+                                                        <property name="width">200</property>
+                                                        <layout manager="grid">
+                                                          <property name="column">0</property>
+                                                          <property name="propagate">True</property>
+                                                          <property name="row">0</property>
+                                                        </layout>
+                                                        <child>
+                                                          <object class="tk.Message" id="message56">
+                                                            <property name="cursor">arrow</property>
+                                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                                            <layout manager="grid">
+                                                              <property name="column">0</property>
+                                                              <property name="propagate">True</property>
+                                                              <property name="row">0</property>
+                                                            </layout>
+                                                          </object>
+                                                        </child>
+                                                      </object>
+                                                    </child>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </child>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Notebook.Tab" id="preflopmax9utg1">
+                            <property name="text" translatable="yes">UTG+1</property>
+                            <child>
+                              <object class="ttk.Notebook" id="notebook14">
+                                <property name="height">200</property>
+                                <property name="width">200</property>
+                                <layout manager="grid">
+                                  <property name="column">0</property>
+                                  <property name="propagate">True</property>
+                                  <property name="row">0</property>
+                                </layout>
+                                <child>
+                                  <object class="ttk.Notebook.Tab" id="tab38">
+                                    <property name="text" translatable="yes">VPIP</property>
+                                    <child>
+                                      <object class="ttk.Frame" id="frame34">
+                                        <property name="height">200</property>
+                                        <property name="width">200</property>
+                                        <layout manager="grid">
+                                          <property name="column">0</property>
+                                          <property name="propagate">True</property>
+                                          <property name="row">0</property>
+                                        </layout>
+                                        <child>
+                                          <object class="tk.Message" id="message2">
+                                            <property name="cursor">arrow</property>
+                                            <property name="text" translatable="yes">RANGE BUILDER HERE</property>
+                                            <layout manager="grid">
+                                              <property name="column">0</property>
+                                              <property name="propagate">True</property>
+                                              <property name="row">0</property>
+                                            </layout>
+                                          </object>
+                                        </child>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="ttk.Notebook.Tab" id="tab39">
+                                    <property name="text" translatable="yes">vsOpen</property>
+                                    <child>
+                                      <object class="ttk.Frame" id="frame35">
+                                        <property name="height">200</property>
+                                        <property name="width">200</property>
+                                        <layout manager="grid">
+                                          <property name="column">0</property>
+                                          <property name="propagate">True</property>
+                                          <property name="row">0</property>
+                                        </layout>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="ttk.Notebook.Tab" id="tab40">
+                                    <property name="text" translatable="yes">vs3bet</property>
+                                    <child>
+                                      <object class="ttk.Frame" id="frame36">
+                                        <property name="height">200</property>
+                                        <property name="width">200</property>
+                                        <layout manager="grid">
+                                          <property name="column">0</property>
+                                          <property name="propagate">True</property>
+                                          <property name="row">0</property>
+                                        </layout>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Notebook.Tab" id="preflopmax9mp">
+                            <property name="text" translatable="yes">MP</property>
+                            <child>
+                              <object class="ttk.Frame" id="frame24">
+                                <property name="height">200</property>
+                                <property name="width">200</property>
+                                <layout manager="grid">
+                                  <property name="column">0</property>
+                                  <property name="propagate">True</property>
+                                  <property name="row">0</property>
+                                </layout>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Notebook.Tab" id="preflopmax9mp1">
+                            <property name="text" translatable="yes">MP+1</property>
+                            <child>
+                              <object class="ttk.Frame" id="frame25">
+                                <property name="height">200</property>
+                                <property name="width">200</property>
+                                <layout manager="grid">
+                                  <property name="column">0</property>
+                                  <property name="propagate">True</property>
+                                  <property name="row">0</property>
+                                </layout>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Notebook.Tab" id="preflopmax9hj">
+                            <property name="text" translatable="yes">HJ</property>
+                            <child>
+                              <object class="ttk.Frame" id="frame26">
+                                <property name="height">200</property>
+                                <property name="width">200</property>
+                                <layout manager="grid">
+                                  <property name="column">0</property>
+                                  <property name="propagate">True</property>
+                                  <property name="row">0</property>
+                                </layout>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Notebook.Tab" id="preflopmax9co">
+                            <property name="text" translatable="yes">CO</property>
+                            <child>
+                              <object class="ttk.Frame" id="frame27">
+                                <property name="height">200</property>
+                                <property name="width">200</property>
+                                <layout manager="grid">
+                                  <property name="column">0</property>
+                                  <property name="propagate">True</property>
+                                  <property name="row">0</property>
+                                </layout>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Notebook.Tab" id="preflopmax9btn">
+                            <property name="text" translatable="yes">BTN</property>
+                            <child>
+                              <object class="ttk.Frame" id="frame28">
+                                <property name="height">200</property>
+                                <property name="width">200</property>
+                                <layout manager="grid">
+                                  <property name="column">0</property>
+                                  <property name="propagate">True</property>
+                                  <property name="row">0</property>
+                                </layout>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Notebook.Tab" id="preflopmax9sb">
+                            <property name="text" translatable="yes">SB</property>
+                            <child>
+                              <object class="ttk.Frame" id="frame29">
+                                <property name="height">200</property>
+                                <property name="width">200</property>
+                                <layout manager="grid">
+                                  <property name="column">0</property>
+                                  <property name="propagate">True</property>
+                                  <property name="row">0</property>
+                                </layout>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Notebook.Tab" id="preflopmax9bb">
+                            <property name="text" translatable="yes">BB</property>
+                            <child>
+                              <object class="ttk.Frame" id="frame30">
+                                <property name="height">200</property>
+                                <property name="width">200</property>
+                                <layout manager="grid">
+                                  <property name="column">0</property>
+                                  <property name="propagate">True</property>
+                                  <property name="row">0</property>
+                                </layout>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Notebook.Tab" id="max8tab">
+                    <property name="text" translatable="yes">8-max</property>
+                    <child>
+                      <object class="ttk.Frame" id="frame15">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="grid">
+                          <property name="column">0</property>
+                          <property name="propagate">True</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Notebook.Tab" id="max7tab">
+                    <property name="text" translatable="yes">7-max</property>
+                    <child>
+                      <object class="ttk.Frame" id="frame16">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="grid">
+                          <property name="column">0</property>
+                          <property name="propagate">True</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Notebook.Tab" id="max6tab">
+                    <property name="text" translatable="yes">6-max</property>
+                    <child>
+                      <object class="ttk.Frame" id="frame17">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="grid">
+                          <property name="column">0</property>
+                          <property name="propagate">True</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Notebook.Tab" id="max5tab">
+                    <property name="text" translatable="yes">5-max</property>
+                    <child>
+                      <object class="ttk.Frame" id="frame18">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="grid">
+                          <property name="column">0</property>
+                          <property name="propagate">True</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Notebook.Tab" id="max4tab">
+                    <property name="text" translatable="yes">4-max</property>
+                    <child>
+                      <object class="ttk.Frame" id="frame19">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="grid">
+                          <property name="column">0</property>
+                          <property name="propagate">True</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Notebook.Tab" id="max3tab">
+                    <property name="text" translatable="yes">3-max</property>
+                    <child>
+                      <object class="ttk.Frame" id="frame20">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="grid">
+                          <property name="column">0</property>
+                          <property name="propagate">True</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Notebook.Tab" id="max2tab">
+                    <property name="text" translatable="yes">2-max</property>
+                    <child>
+                      <object class="ttk.Frame" id="frame21">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="grid">
+                          <property name="column">0</property>
+                          <property name="propagate">True</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
