@@ -2,6 +2,7 @@ GUI enable to launch the bot with different parameters for each table.
 
     BOT classes
         Table
+            import as parent class DecisionMaking ***which is dynamically imported***
             GetFrame
             UpdatePot
             UpdateDealer
@@ -23,4 +24,21 @@ GUI enable to launch the bot with different parameters for each table.
             UpdatePossibleActions
             WaitAction
             WaitOwnAction
+
+        DecisionMaking # Dynamicly imported Names = ["V1_0", "V1_1"]
+            Default class name = DecisionMaking
+
+    Config files
+        constants.toml      # make toml to = ['constants', 'screen positions', etc]
+            ['6-max'] # we decide which one to use when selecting the decision making algo
+                [...]
+                [...]
+                [...]
+                [...]
+
+            ['9-max']
+                [...]
+                [...]
+                [...]
+                [...]
             

@@ -1,0 +1,6 @@
+[[6-max]]
+    [player]
+        table = 9
+
+[9-max]
+total_players = 9
